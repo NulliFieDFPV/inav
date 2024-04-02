@@ -154,7 +154,7 @@ save
 
 5. **Tailsitters:planned for INAV 7.1**
    - Configure the fixed-wing mode/profile sets normally. Use MultiCopter platform type for tail_sitting flying mode/profile sets. 
-   - The baseline board aliment is FW mode(ROLL axis is the trust axis). So set `tailsitter_orientation_offset = ON ` in the tail_sitting MC mode.
+   - The baseline board aliment is FW mode(ROLL axis is the thrust axis). So set `tailsitter_orientation_offset = ON ` in the tail_sitting MC mode.
    - Configure mixer ROLL/YAW mixing according to tail_sitting orientation in the tail_sitting MC mode. YAW axis is the trust axis.
    - Conduct a bench test and see the orientation of the model changes in inav-configurator setup tab
 
